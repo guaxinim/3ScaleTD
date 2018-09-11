@@ -20,7 +20,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
 
-@Path("/services")
+@Path("/v1")
 @Api(value="services")
 @Produces("application/json")
 public class ProductServices {
