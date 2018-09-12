@@ -5,7 +5,7 @@ import javax.ws.rs.core.Application;
 
 import io.swagger.jaxrs.config.BeanConfig;
 
-@ApplicationPath("issuerServicesHolder")
+@ApplicationPath("issuerProcessing")
 public class ProductsApplication extends Application {
 	public ProductsApplication(){
 		 BeanConfig beanConfig = new BeanConfig();
